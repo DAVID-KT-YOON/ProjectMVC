@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yoonk\\OneDrive - George Mason University - O365 Production\\Desktop\\git\\AntraTraining\\MovieProjectMVC\\ApplicationCore\\ApplicationCore.csproj",
+      "projectUniqueName": "C:\\Users\\yoonk\\OneDrive - George Mason University - O365 Production\\Desktop\\git\\projectMVC\\MovieProjectMVC\\ApplicationCore\\ApplicationCore.csproj",
       "projectName": "ApplicationCore",
-      "projectPath": "C:\\Users\\yoonk\\OneDrive - George Mason University - O365 Production\\Desktop\\git\\AntraTraining\\MovieProjectMVC\\ApplicationCore\\ApplicationCore.csproj",
+      "projectPath": "C:\\Users\\yoonk\\OneDrive - George Mason University - O365 Production\\Desktop\\git\\projectMVC\\MovieProjectMVC\\ApplicationCore\\ApplicationCore.csproj",
       "packagesPath": "C:\\Users\\yoonk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yoonk\\OneDrive - George Mason University - O365 Production\\Desktop\\git\\AntraTraining\\MovieProjectMVC\\ApplicationCore\\obj\\",
+      "outputPath": "C:\\Users\\yoonk\\OneDrive - George Mason University - O365 Production\\Desktop\\git\\projectMVC\\MovieProjectMVC\\ApplicationCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
