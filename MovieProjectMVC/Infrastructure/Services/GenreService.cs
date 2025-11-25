@@ -1,6 +1,8 @@
-﻿namespace Infrastructure.Services;
+﻿using ApplicationCore.Contracts.Services;
 
-public class GenreService
+namespace Infrastructure.Services;
+
+public class GenreService: IGenreService
 {
     
 }

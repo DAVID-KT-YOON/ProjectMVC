@@ -28,4 +28,12 @@ public class MovieRepository: BaseRepository<Movie>, IMovieRepository
             .ThenInclude(mc => mc.Cast)
             .FirstOrDefault(m => m.Id == id);
     }
+    public IEnumerable<Movie> GetMovieWithGenre(string genre)
+    {
+        return _context.Movies
+            .Include(m => m.MovieGenres)
+            .ThenInclude(mg => mg.Genre)
+            .Where(m => m.MovieGenres.Any(mg => mg.Genre.Name == genre)).Take(20)
+            .ToList(); 
+    }
 }

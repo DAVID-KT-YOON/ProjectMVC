@@ -27,6 +27,22 @@ public class MovieService: IMovieService
         return movieCardModels;
     }
 
+    public List<MovieCardModel> ByGenre(string genre)
+    {
+        var movies = _repository.GetMovieWithGenre(genre);
+        var movieCardModels = new List<MovieCardModel>();
+        foreach (var movie in movies)
+        {
+            movieCardModels.Add(new MovieCardModel()
+            {
+                Title = movie.Title,
+                Id = movie.Id,
+                PosterUrl = movie.PosterUrl
+            });
+        }
+        return movieCardModels;
+    }
+
     public MovieDetailsModel GetMovieDetails(int id)
     {
         var movie = _repository.GetMovieWithGenresAndReview(id);

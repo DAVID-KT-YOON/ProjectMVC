@@ -1,6 +1,11 @@
-﻿namespace Infrastructure.Services;
+﻿using ApplicationCore.Contracts.Services;
 
-public class UserService
+namespace Infrastructure.Services;
+
+public class UserService:IUserService
 {
-    
+    public bool ValidateUser(string modelEmail, string modelPassword, ref string errorMessage)
+    {
+        throw new NotImplementedException();
+    }
 }

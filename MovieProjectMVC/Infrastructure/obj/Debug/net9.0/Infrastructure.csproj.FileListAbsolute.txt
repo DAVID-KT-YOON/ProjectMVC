@@ -51,3 +51,21 @@ C:\Users\yoonk\OneDrive - George Mason University - O365 Production\Desktop\git\
 C:\Users\yoonk\OneDrive - George Mason University - O365 Production\Desktop\git\projectMVC\MovieProjectMVC\Infrastructure\obj\Debug\net9.0\Infrastructure.pdb
 C:\Users\yoonk\OneDrive - George Mason University - O365 Production\Desktop\git\projectMVC\MovieProjectMVC\Infrastructure\obj\Debug\net9.0\Infrastructure.genruntimeconfig.cache
 C:\Users\yoonk\OneDrive - George Mason University - O365 Production\Desktop\git\projectMVC\MovieProjectMVC\Infrastructure\obj\Debug\net9.0\ref\Infrastructure.dll
+C:\Users\David Yoon\Desktop\Training\ProjectMVC\MovieProjectMVC\Infrastructure\bin\Debug\net9.0\Infrastructure.deps.json
+C:\Users\David Yoon\Desktop\Training\ProjectMVC\MovieProjectMVC\Infrastructure\bin\Debug\net9.0\Infrastructure.runtimeconfig.json
+C:\Users\David Yoon\Desktop\Training\ProjectMVC\MovieProjectMVC\Infrastructure\bin\Debug\net9.0\Infrastructure.dll
+C:\Users\David Yoon\Desktop\Training\ProjectMVC\MovieProjectMVC\Infrastructure\bin\Debug\net9.0\Infrastructure.pdb
+C:\Users\David Yoon\Desktop\Training\ProjectMVC\MovieProjectMVC\Infrastructure\bin\Debug\net9.0\ApplicationCore.dll
+C:\Users\David Yoon\Desktop\Training\ProjectMVC\MovieProjectMVC\Infrastructure\bin\Debug\net9.0\ApplicationCore.pdb
+C:\Users\David Yoon\Desktop\Training\ProjectMVC\MovieProjectMVC\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\David Yoon\Desktop\Training\ProjectMVC\MovieProjectMVC\Infrastructure\obj\Debug\net9.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\David Yoon\Desktop\Training\ProjectMVC\MovieProjectMVC\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\David Yoon\Desktop\Training\ProjectMVC\MovieProjectMVC\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfo.cs
+C:\Users\David Yoon\Desktop\Training\ProjectMVC\MovieProjectMVC\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\David Yoon\Desktop\Training\ProjectMVC\MovieProjectMVC\Infrastructure\obj\Debug\net9.0\Infrastructure.sourcelink.json
+C:\Users\David Yoon\Desktop\Training\ProjectMVC\MovieProjectMVC\Infrastructure\obj\Debug\net9.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\David Yoon\Desktop\Training\ProjectMVC\MovieProjectMVC\Infrastructure\obj\Debug\net9.0\Infrastructure.dll
+C:\Users\David Yoon\Desktop\Training\ProjectMVC\MovieProjectMVC\Infrastructure\obj\Debug\net9.0\refint\Infrastructure.dll
+C:\Users\David Yoon\Desktop\Training\ProjectMVC\MovieProjectMVC\Infrastructure\obj\Debug\net9.0\Infrastructure.pdb
+C:\Users\David Yoon\Desktop\Training\ProjectMVC\MovieProjectMVC\Infrastructure\obj\Debug\net9.0\Infrastructure.genruntimeconfig.cache
+C:\Users\David Yoon\Desktop\Training\ProjectMVC\MovieProjectMVC\Infrastructure\obj\Debug\net9.0\ref\Infrastructure.dll

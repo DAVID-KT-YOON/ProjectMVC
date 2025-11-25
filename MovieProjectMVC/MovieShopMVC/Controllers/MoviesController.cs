@@ -35,4 +35,10 @@ public class MoviesController:Controller
         _movieService.DeleteMovie(id);
         return RedirectToAction("Index","Home");
     }
+
+    public IActionResult ByGenre(string genre)
+    {
+        var movies = _movieService.ByGenre(genre);
+        return View("~/Views/Home/Index.cshtml",movies);
+    }
 }
