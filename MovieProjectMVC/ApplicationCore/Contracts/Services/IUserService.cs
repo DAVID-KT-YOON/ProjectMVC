@@ -1,6 +1,8 @@
-﻿namespace ApplicationCore.Contracts.Services;
+﻿using ApplicationCore.Entities;
+
+namespace ApplicationCore.Contracts.Services;
 
 public interface IUserService
 {
-    bool ValidateUser(string modelEmail, string modelPassword,ref string errorMessage);
+    User? ValidateUser(string modelEmail, string modelPassword, out string errorMessage);
 }

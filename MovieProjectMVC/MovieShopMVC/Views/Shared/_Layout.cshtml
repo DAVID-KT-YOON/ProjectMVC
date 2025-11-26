@@ -1,4 +1,12 @@
-﻿<!DOCTYPE html>
+﻿@inject IHttpContextAccessor HttpContextAccessor
+@if (Context.Request.Query["refresh"] == "true")
+{
+    <script>
+        window.location.reload(true); // hard refresh
+    </script>
+}
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
@@ -55,9 +63,24 @@
             </ul>
 
             <!-- Right side (Login / Sign Up) -->
+            @{
+                var userId = HttpContextAccessor.HttpContext.Session.GetInt32("UserId");
+                var userName = HttpContextAccessor.HttpContext.Session.GetString("UserName");
+            }
+
             <div class="d-flex">
-                <a class="btn btn-outline-light me-2" asp-controller="Account" asp-action="Login">Login</a>
-                <a class="btn btn-primary" asp-controller="Account" asp-action="Register">Sign Up</a>
+                @if (userId == null)
+                {
+                    <!-- User is NOT logged in -->
+                    <a class="btn btn-outline-light me-2" asp-controller="Account" asp-action="Login">Login</a>
+                    <a class="btn btn-primary" asp-controller="Account" asp-action="Register">Sign Up</a>
+                }
+                else
+                {
+                    <!-- User is logged in -->
+                    <span class="navbar-text me-3 text-light">Hello, @userName!</span>
+                    <a class="btn btn-danger" asp-controller="Account" asp-action="Logout">Logout</a>
+                }
             </div>
         </div>
     </div>
